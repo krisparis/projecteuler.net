@@ -4,4 +4,4 @@ for(var i = 3; i< 1000; i++){
      sum += i;
   }
 }
-alert(sum);
+alert(sum); // 233168.
