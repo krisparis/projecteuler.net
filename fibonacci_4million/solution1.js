@@ -5,7 +5,7 @@ var sumOfEvenFibonacciNbsBelowLimit = function(limit) {
     
     // While the third calculated fibonacci number is smaller than limit.
     while (c < limit) {
-            // Add only if 'a' is even.
+        // Add only if 'c' is even.
         if (c % 2 === 0) {
             evensum += c;
         }    
