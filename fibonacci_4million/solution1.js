@@ -1,4 +1,4 @@
-var evenSumfibonacciNbsBelow = function(limit) {
+var sumOfEvenFibonacciNbsBelowLimit = function(limit) {
     var a = 0, b = 1, c = a + b,
     // Initialize 'evensum' with the first fibonacci number which is even.
     evensum = 0;
@@ -15,4 +15,4 @@ var evenSumfibonacciNbsBelow = function(limit) {
     }
     return evensum;
 }
-console.log(evenSumfibonacciNbsBelow(4000000)); // 4613732
+console.log(sumOfEvenFibonacciNbsBelowLimit(4000000)); // 4613732
