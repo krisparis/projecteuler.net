@@ -14,6 +14,7 @@
 var sumOfEvenFibonacciNbsBelowLimit = function(limit) {
     var a = 1, b = 1, c = a+b, evenTermsSum = 0;
     
+    // While each third calculated fibonacci number is smaller than limit.    
     while (c < limit) {
         evenTermsSum = evenTermsSum + c;
         a = b +c;
