@@ -1,3 +1,11 @@
+// Fermat factorization algorithm
+// Efficiency: If n= a^2 − b^2 = (a − b)(a + b) = cd then
+//     a = c+d/2 and b = c-d /2.
+//     We start from a number approximately  equal to sqrt(n).
+//     Number of iterations: c+d/2 - sqrt(n) = (c + n/c)/2 - sqrt(n) = c^2/2c + n/2c - 2c*sqrt(n)/2c = 
+//                           = sqrt(n)^2/2c - 2c*sqrt(n)/2c + c^2/2c 
+//                           = (sqrt(n) - c)^2/2c
+
 /**
 * Tests if n is a square number.
 * @param n {Number} the number being tested
