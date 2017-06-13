@@ -1,4 +1,4 @@
-// Algorithme that uses the property that
+// Algorithm that uses the property that
 // each number is a product of prime number n = p1^a1 * p2^a2 * ... * pn^an.
 
 var n = 600851475143,
