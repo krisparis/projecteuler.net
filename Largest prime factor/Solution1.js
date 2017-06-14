@@ -1,7 +1,7 @@
 // Algorithm that uses the property that
 // each number is a product of prime number n = p1^a1 * p2^a2 * ... * pn^an.
 
-    
+        
 var n = 600851475143,
 k = 2, lastFactor = 1;
 while (n > 1){
@@ -18,3 +18,4 @@ while (n > 1){
     }
     k += 1;
 }
+console.log(lastFactor); // Print 6857 for 600851475143.
