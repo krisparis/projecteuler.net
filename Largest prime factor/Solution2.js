@@ -6,7 +6,7 @@ var n = 600851475143, lastFactor;
 // So if possible, start by completely divide out by 2.
 if (n % 2 === 0)  {
         lastFactor = 2;
-    n = Math.floor(n/k);
+    n = Math.floor(n/2);
       while (n % 2 === 0){
         n = Math.floor(n/2);
       }
