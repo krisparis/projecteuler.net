@@ -37,7 +37,7 @@ while ((n > 1) && (k <= factorLimit)){
             n = Math.floor(n/k);
         }
         // Update factorLimit.
-        // So that it will be able to avoid the last loop iteration.
+        // So that it will be enable to avoid the last loop iteration.
         factorLimit = Math.sqrt(n);
     }
     k += 2; // Consider only odd number as every even factor have been eliminated.
