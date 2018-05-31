@@ -1,6 +1,5 @@
 // Square of the sum of the first hundred natural numbers.
 var squareOfSum =  Math.pow((1 + 100)*100/2,2);
-alert(squareOfSum);
 
 // Calculate sum of squares.
 // (n+1)^3 = (n+1) (n+1)^2 = n^3 + 3n^2 + 3n +1
@@ -34,8 +33,7 @@ alert(squareOfSum);
 //  6*SUM [n^2] = (n+1)  [2n^2 +n]
 //  6*SUM [n^2] = (n+1) *  n (2n+1)
 //  SUM [n^2] = (n+1) *  n (2n+1)/6
-
-
-
-
-
+var n = 100;
+var sumOfSquares =  (n+1) * n *(2*n+1)/6;
+var result = squareOfSum - sumOfSquares;
+alert(result);
